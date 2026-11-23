@@ -1,0 +1,23 @@
+{
+  "calibration_type": "real",
+  "camera": "video2.mp4",
+  "resolution": "768x432",
+  "road_plane_description": "Approximate quadrilateral on the central roadway section.",
+  "image_points": [
+    [300, 130],
+    [430, 130],
+    [560, 420],
+    [210, 420]
+  ],
+  "world_points": [
+    [0.0, 20.0],
+    [3.6, 20.0],
+    [3.6, 0.0],
+    [0.0, 0.0]
+  ],
+  "units": {
+    "world_coordinates": "metres (assumed)",
+    "speed": "km/h for display only (demo; not physically calibrated)"
+  },
+  "notes": "DEMO ONLY. The road polygon is estimated visually from a frame of video2.mp4. The 3.6 m lane width and 20 m road length are assumptions, not measurements. Displayed km/h is the estimated m/s multiplied by 3.6; this conversion does not make the result physically accurate. The curved road and perspective make this approximate; verify the four road-plane points and measure known distances before using this calibration for real-world speed."
+}

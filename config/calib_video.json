@@ -1,0 +1,23 @@
+{
+  "calibration_type": "real",
+  "camera": "dataset/test/videos/video.mp4",
+  "resolution": "2568x1440",
+  "road_plane_description": "Approximate road-plane quadrilateral covering the central approach area.",
+  "image_points": [
+    [650, 250],
+    [1350, 250],
+    [1850, 1230],
+    [550, 1230]
+  ],
+  "world_points": [
+    [0.0, 25.0],
+    [12.0, 25.0],
+    [12.0, 0.0],
+    [0.0, 0.0]
+  ],
+  "units": {
+    "world_coordinates": "metres (assumed)",
+    "speed": "km/h for display only (demo; not physically calibrated)"
+  },
+  "notes": "DEMO ONLY. The road-plane points are approximate and the 12 m road width and 25 m length are assumptions, not measurements. This file is only for testing the speed-processing pipeline. Do not treat the displayed km/h values as real speeds. For a physical calibration, replace the assumed world distances with measured distances on the road."
+}

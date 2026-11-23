@@ -1,0 +1,23 @@
+{
+  "calibration_type": "real",
+  "camera": "sample_traffic.mp4 (fixed traffic camera)",
+  "resolution": "854x480",
+  "road_plane_description": "Approximate quadrilateral on the central roadway between the queued vehicles and the near crosswalk.",
+  "image_points": [
+    [300, 250],
+    [455, 250],
+    [510, 365],
+    [275, 365]
+  ],
+  "world_points": [
+    [0.0, 10.0],
+    [3.5, 10.0],
+    [3.5, 0.0],
+    [0.0, 0.0]
+  ],
+  "units": {
+    "world_coordinates": "metres (assumed)",
+    "speed": "km/h for display only (demo; not physically calibrated)"
+  },
+  "notes": "DEMO ONLY. The road-plane points are approximate and were selected visually from sample_traffic.mp4. The 3.5 m lane width and 10 m longitudinal distance are assumptions, not measurements. Displayed km/h is the estimated m/s multiplied by 3.6; this does not make the result physically accurate. Measure known ground-plane distances and verify the lane corners before considering a real calibration."
+}

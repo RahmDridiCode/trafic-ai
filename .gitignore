@@ -1,0 +1,28 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.ui_state/
+
+# Tout ignorer sauf ce qu'on pousse
+/*
+!.gitignore
+!ui/
+!src/
+!scripts/
+!config/
+!models/
+!requirements.txt
+!requirements-ui.txt
+!predict.py
+!data.yaml
+
+# Dans models : uniquement best_n.pt
+models/*
+!models/Feux/
+models/Feux/*
+!models/Feux/best_n.pt
